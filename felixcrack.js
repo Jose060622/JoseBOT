@@ -1,5 +1,5 @@
-// © Copyright Felixcrack 409 | FX-BOT
-// Bot By Felixcrack
+// © Copyright Jose | Version 0.0.72
+// Bot By Felixcrack && Jose
 // Si modificas deja créditos
 
 //Modulos NPM
@@ -46,7 +46,7 @@ const { welmenu } = require('./src/welmenu')
 const { addMetadata } = require('./lib/exif.js')
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Felix😎🤙🏻\n' 
+            + 'FN:Jose😎🤙🏻\n' 
             + 'ORG:Creador De FX-BOT-V72\n' 
             + 'TEL;type=CELL;type=VOICE;waid=12603763944:+1 (260) 376-3944\n' 
             + 'END:VCARD'
@@ -70,7 +70,7 @@ const
 		processTime,
 	} = require("@adiwajshing/baileys")
 //=================================================//
-prefix = '.'
+prefix = '/'
 blocked = []
 cmdnf = []
 ind = []
@@ -85,7 +85,7 @@ async function starts() {
 	FxBot.version = [2, 2119, 6]
 	FxBot.logger.level = 'warn'
 	console.log(banner.string)
-	console.log(color('[ BOT]','aqua'), color("BOT BY FELIXCRACK 409", "yellow"))
+	console.log(color('[ BOT]','aqua'), color("BOT BY Jose", "yellow"))
 	console.log('>', '[',color('INFO','blue'),']','Suscribete A Felixcrack 409...')
 	FxBot.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color(' Escanea El Código QR De Arriba'))
@@ -131,8 +131,8 @@ FxBot.on('group-participants-update', async (anu) => {
 ┃   「 *_BIENVENIDO_* 」
 ┗━━━━━━━━━━━━━━━━━
 ┏━━━━━━━━━━━━━━━━━
-┠⊷️ *Suscríbete*:
-┠⊷️*http://bit.ly/2ZUH2jP
+┠⊷️ *sigueme*:
+┠⊷️*https://www.instagram.com/__jose.cl/
 ┠⊷️ *Grupo Oficial*:
 ┠⊷️ *http://bit.ly/3hpkba4
 ┗━━━━━━━━━━━━━━━━━
@@ -252,30 +252,30 @@ FxBot.on('chat-update', async (mek) => {
         const conts = mek.key.fromMe ? FxBot.user.jid : FxBot.contacts[sender] || { notify: jid.replace(/@.+/, '') }
         const pushname = mek.key.fromMe ? FxBot.user.name : conts.notify || conts.vname || conts.name || '-'
        //SETTINGS FUNCIONES
-       const apakah = ['Si','No']
+       const apakah = ['claramente','si' , 'no']
    	const gay = ['Eres 15% Gay','Eres 0% Gay 😱','Eres 20% Gay','Eres 78% Gay','Eres 62% Gay','Eres 0.1% Gay','Eres 100% Gay 😬','Eres 6% Gay','Eres 96% Gay','Eres 21% Gay','Eres 50% Gay','Eres 99.99% Gay','Eres 12% Gay','Eres 88% Gay','ERES INFINITAMENTE GAY 🤯','Eres 75% Gay','Eres 19% Gay','Eres Fan De Cuties 🤬','Eres 44% Gay','Eres 84% Gay']
        const kapankah = ['Otro día','Otra semana','Otro mes','Otro año']
         //MESS
         
 		mess = {
-			wait: '「 ❗ 」 En Proceso, Aguarda!',
+			wait:    '「 ❗ 」 Espete weon',
 			success: '「 ❗ 」 Uff Comando Con Exito',
-			nsfwoff: '「 ❗ 」La Funcion De Nsfw No Está Activa!',
-			wrongFormat: '「 ❗ 」 Wey No Seas Pendejo Escribe Bien El Formato',
-			waitmusic: '「 ❗ 」 Espera! Estoy buscando tu musica\nEn cuánto la encuentre la envío!!',
+			nsfwoff: '「 ❗ 」La Funcion De Nsfw No Está Activa! F ',
+			wrongFormat: '「 ❗ 」Aprende a escribir',
+			waitmusic: '「 ❗ 」 esperate aweonao ',
 			waitimg: '「 ❗ 」 Espera! Estoy creando tu imagen!',
-			nsfwoff: '「 ❗ 」La Funcion De Nsfw No Está Activa!',
-					musica: '「 ❗ 」Espera un momento, estoy buscando tu canción, recuerda suscribirte a mi canal de YouTube',
-			imageoff: '「 ❗ 」No Puedo Enviar Fotos Mientras No Esta Activa La Función!',
+			nsfwoff: '「 ❗ 」La Funcion De Nsfw No Está Activa! F ',
+			musica:  '「 ❗ 」estoy descargando tu cancion',
+			imageoff: '「 ❗ 」no pasen fotos mierda',
 			error: {
-				stick: '「 ❗ 」F no se pudo convertir:/',
-				errostick: '❌Error al crear el sticker❌',
+				stick: '「 ❗ 」No se pudo por que eres virgen',
+				errostick: '❌no se pudo por que eres gey ❌',
 				Iv: '「 ❗ 」Link Invalido Weon'
 			},
 			only: {
-				group: '「 ❗ 」Este Comando Solo Puede Ser Usado En Grupos',
-				admin: '「 ❗ 」No Eres Admin 💩',
-				Badmin: '「 ❗ 」 Necesito Ser Admin Para Este Comando'
+				group: '「 ❗ 」comando solo para grupos',
+				admin: '「 ❗ 」pero si no eres admin?',
+				Badmin: '「 ❗ 」 dame admin mierda'
 			}
 		}
 		const isUrl = (url) => {
@@ -391,8 +391,8 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: 'status@broadcast' } : 
 'mimetype': 'image/jpeg',
  'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')
 },
-'title': `Hola UwU ${pushname}`,
-'productImageCount': 9999
+'title': `Todo bien en casa  ${pushname}`,
+'productImageCount': 1
 },
 'businessOwnerJid': `0@s.whatsapp.net`
 }
@@ -413,7 +413,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: 'status@broadcast' } : 
 'mimetype': 'image/jpeg',
  'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')
 },
-'title': `𝗙𝗫-𝗕𝗢𝗧`,
+'title': `✪JOSEBOT`,
 'productImageCount': 0
 },
 'businessOwnerJid': `0@s.whatsapp.net`
@@ -1458,7 +1458,7 @@ pru += `@${_.split('@')[0]}\n`
 }
 ban.splice(`${mentioned}`)
 fs.writeFileSync('./database/banned.json', JSON.stringify(ban))
-susp = `❎@${mentioned[0].split('@')[0]} se ha desbloqueado y puede volver a utilizar los comandos del bot❎`
+susp = `❎@${mentioned[0].split('@')[0]} se ha desbloqueado y puede volver a utilizar los comandos del bot por gil ❎`
 mentions(`${susp}`, mentioned, true)   
 break
        
