@@ -131,13 +131,13 @@ FxBot.on('group-participants-update', async (anu) => {
 ┃   「 *_BIENVENIDO_* 」
 ┗━━━━━━━━━━━━━━━━━
 ┏━━━━━━━━━━━━━━━━━
-┠⊷️ *sigueme*:
-┠⊷️*https://www.instagram.com/__jose.cl/
-┠⊷️ *Grupo Oficial*:
-┠⊷️ *http://bit.ly/3hpkba4
+┠❐ *sigueme*:
+┠❐ *https://www.instagram.com/__jose.cl/
+┠❐ *Grupo Oficial*:
+┠❐ *http://bit.ly/3hpkba4
 ┗━━━━━━━━━━━━━━━━━
 ┏━━━━━━━━━━━━━━━━━
-┠⊷️「 *DESCRIPCIÓN* 」
+┠❐「 *DESCRIPCIÓN* 」
 ┗━━━━━━━━━━━━━━━━━
 ┏━━━━━━━━━━━━━━━━━
   ${mdata.desc}*
@@ -252,30 +252,30 @@ FxBot.on('chat-update', async (mek) => {
         const conts = mek.key.fromMe ? FxBot.user.jid : FxBot.contacts[sender] || { notify: jid.replace(/@.+/, '') }
         const pushname = mek.key.fromMe ? FxBot.user.name : conts.notify || conts.vname || conts.name || '-'
        //SETTINGS FUNCIONES
-       const apakah = ['claramente','si' , 'no']
+       const pregunta = ['claramente','si' , 'no']
    	const gay = ['Eres 15% Gay','Eres 0% Gay 😱','Eres 20% Gay','Eres 78% Gay','Eres 62% Gay','Eres 0.1% Gay','Eres 100% Gay 😬','Eres 6% Gay','Eres 96% Gay','Eres 21% Gay','Eres 50% Gay','Eres 99.99% Gay','Eres 12% Gay','Eres 88% Gay','ERES INFINITAMENTE GAY 🤯','Eres 75% Gay','Eres 19% Gay','Eres Fan De Cuties 🤬','Eres 44% Gay','Eres 84% Gay']
        const kapankah = ['Otro día','Otra semana','Otro mes','Otro año']
         //MESS
         
 		mess = {
-			wait:    '「 ❗ 」 Espete weon',
-			success: '「 ❗ 」 Uff Comando Con Exito',
-			nsfwoff: '「 ❗ 」La Funcion De Nsfw No Está Activa! F ',
-			wrongFormat: '「 ❗ 」Aprende a escribir',
-			waitmusic: '「 ❗ 」 esperate aweonao ',
-			waitimg: '「 ❗ 」 Espera! Estoy creando tu imagen!',
-			nsfwoff: '「 ❗ 」La Funcion De Nsfw No Está Activa! F ',
-			musica:  '「 ❗ 」estoy descargando tu cancion',
-			imageoff: '「 ❗ 」no pasen fotos mierda',
+			wait:    '「 ❗ 」 Espete weon❂',
+			success: '「 ❗ 」 Uff Comando Con Exito❂',
+			nsfwoff: '「 ❗ 」La Funcion De Nsfw No Está Activa! F❂',
+			wrongFormat: '「 ❗ 」Aprende a escribir❂',
+			waitmusic: '「 ❗ 」 esperate aweonao❂',
+			waitimg: '「 ❗ 」 Espera! Estoy creando tu imagen!❂',
+			nsfwoff: '「 ❗ 」La Funcion De Nsfw No Está Activa! F❂',
+			musica:  '「 ❗ 」estoy descargando tu cancion❂',
+			imageoff: '「 ❗ 」no pasen fotos mierda❂',
 			error: {
 				stick: '「 ❗ 」No se pudo por que eres virgen',
 				errostick: '❌no se pudo por que eres gey ❌',
 				Iv: '「 ❗ 」Link Invalido Weon'
 			},
 			only: {
-				group: '「 ❗ 」comando solo para grupos',
-				admin: '「 ❗ 」pero si no eres admin?',
-				Badmin: '「 ❗ 」 dame admin mierda'
+				group: '「 ❗ 」comando solo para grupos❂',
+				admin: '「 ❗ 」pero si no eres admin?❂',
+				Badmin: '「 ❗ 」 dame admin mierda❂'
 			}
 		}
 		const isUrl = (url) => {
